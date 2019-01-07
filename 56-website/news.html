@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/adaptation.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <title>新闻资讯</title>
+</head>
+<body>
+    <div class="new-warp">
+        <div class="main-w">
+            <ul class="news-nav">
+                <li class="active fs-32">企业新闻</li>
+                <li class="fs-32">行业资讯</li>
+                <li class="fs-32">最新公告</li>
+            </ul>
+            <ul class="news-lst">
+                <li class="news-item">
+                    <a href="#">
+                        <div class="date c-3 fs-36">
+                            AUG 12 
+                            2018
+                        </div>
+                        <div class="news-content">
+                            <h2 class="fs-32 c-3">云南五六科技网络集团官网正...</h2>
+                            <p class="fs-26 c-6">
+                                在大数据时代，不会数据分析就等于盲人
+                                走路，网站运营同样需要数据来支撑......  
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <style>
+        .main-w{
+            padding: 0 20px;
+        }
+        .new-warp .news-nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        .new-warp .news-nav li{
+            cursor: pointer;
+            color:#333;
+            list-style: none;
+            border-radius: 50px;
+            padding: 12px 33px 12px 22px; 
+        }
+        .new-warp .news-nav li.active{
+            color:#fff;
+            background: linear-gradient(140deg, #008fff, #8adafe);
+        }
+        .news-lst .news-item{
+            box-shadow: 0 0 10px #ccc;
+            list-style: none;
+        }
+        .news-lst .news-item a{
+            display: flex;
+            color:#333;
+            text-decoration: none;
+            padding: 32px 0 26px;
+        }
+        .news-lst .news-item .date{
+            text-align: center;
+        }
+        .news-item .news-content h2{
+            margin-bottom: 27px;
+        }
+        .news-item .news-content p{
+            line-height: 40px;
+        }
+    </style>
+</body>
+</html>

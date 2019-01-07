@@ -1,0 +1,6 @@
+/***********index-head******************/
+.index-head{
+  display: flex;
+  padding: 0 .46875rem /* 30/64 */;
+  justify-content: space-between;
+}
